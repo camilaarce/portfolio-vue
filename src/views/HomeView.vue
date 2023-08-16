@@ -1,6 +1,7 @@
 <template>
   <NavBar />
-  <section id="experiencia"><Experiencia /></section>
+  <section id="bienvenida"><Bienvenida /></section>
+  <section id="experiencia" class="mt-10"><Experiencia /></section>
   <section id="educacion" class="mt-10"><Educacion /></section>
   <section id="skills" class="mt-10"><Skills /></section>
   <section id="proyectos" class="mt-10"><Experiencia /></section>
@@ -14,6 +15,7 @@ import Footer from "@/components/Footer.vue";
 import Experiencia from "@/components/Experiencia.vue";
 import Educacion from "@/components/Educacion.vue";
 import Skills from "@/components/Skills.vue";
+import Bienvenida from "@/components/Bienvenida.vue";
 
 // Components
 
@@ -26,6 +28,7 @@ export default defineComponent({
     Experiencia,
     Educacion,
     Skills,
+    Bienvenida,
   },
 });
 </script>

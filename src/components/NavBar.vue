@@ -7,7 +7,7 @@
     ></v-app-bar-nav-icon>
     <v-spacer></v-spacer>
     <v-app-bar-title>
-      <a href="#experiencia" style="font-size: x-large">
+      <a href="#bienvenida" style="font-size: large">
         CAMILA ARCE
       </a></v-app-bar-title
     >
