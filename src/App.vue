@@ -30,4 +30,30 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.titulo {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.half-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.half-underline::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%; 
+  height: 3px;
+  background-color: rgb(255, 0, 191); 
+}
+
+@media only screen and (max-width: 767px) {
+  .titulo {
+    font-size: 2rem;
+  }
+}
 </style>
