@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify'
 import { loadFonts } from './plugins/webfontloader'
+import VueSmoothScroll from 'vue3-smooth-scroll'
 
 loadFonts()
 
@@ -11,4 +12,9 @@ createApp(App)
   .use(router)
   .use(store)
   .use(vuetify)
+  .use(VueSmoothScroll, {
+    duration: 1000,
+    offset: -75,
+    updateHistory: false
+  })
   .mount('#app')

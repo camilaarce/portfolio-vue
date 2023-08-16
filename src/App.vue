@@ -51,6 +51,23 @@ export default {
   background-color: rgb(255, 0, 191); 
 }
 
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: rgb(255, 198, 241);
+  font-size: 1.5rem;
+  transition: 1s;
+}
+
+a:not(:hover) {
+  color: #fff;
+  font-size: 1rem;
+  transition: 1s;
+}
+
 @media only screen and (max-width: 767px) {
   .titulo {
     font-size: 2rem;

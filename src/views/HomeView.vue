@@ -1,6 +1,9 @@
 <template>
   <NavBar />
-  <Experiencia />
+  <section id="experiencia"><Experiencia /></section>
+  <section id="educacion" class="mt-10"><Experiencia /></section>
+  <section id="skills" class="mt-10"><Experiencia /></section>
+  <section id="proyectos" class="mt-10"><Experiencia /></section>
 </template>
 
 <script>

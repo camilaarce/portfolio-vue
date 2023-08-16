@@ -1,20 +1,22 @@
 <template>
     <v-app-bar color="transparent" elevation="0">
         <v-app-bar-nav-icon color="#fff" @click.stop="drawer = !drawer" v-show="isPhone()"></v-app-bar-nav-icon>
-        <v-app-bar-title>CAMILA ARCE</v-app-bar-title>
         <v-spacer></v-spacer>
-        <v-app-bar-title v-show="!isPhone()">experiencia</v-app-bar-title>
-        <v-app-bar-title v-show="!isPhone()">educacion</v-app-bar-title>
-        <v-app-bar-title v-show="!isPhone()">skills</v-app-bar-title>
-        <v-app-bar-title v-show="!isPhone()">proyectos</v-app-bar-title>
+        <v-app-bar-title>CAMILA ARCE</v-app-bar-title>
+        <v-spacer v-show="!isPhone()"></v-spacer>
+        <v-spacer v-show="!isPhone()"></v-spacer>
+        <v-app-bar-title v-show="!isPhone()"><a href="#experiencia" v-smooth-scroll>experiencia</a></v-app-bar-title>
+        <v-app-bar-title v-show="!isPhone()"><a href="#educacion" v-smooth-scroll>educacion</a></v-app-bar-title>
+        <v-app-bar-title v-show="!isPhone()"><a href="#skills" v-smooth-scroll>skills</a></v-app-bar-title>
+        <v-app-bar-title v-show="!isPhone()"><a href="#proyectos" v-smooth-scroll>proyectos</a></v-app-bar-title>
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" app class="custom-drawer">
     <v-list nav>
-      <v-list-item>experiencia</v-list-item>
-      <v-list-item>educación</v-list-item>
-      <v-list-item>skills</v-list-item>
-      <v-list-item>proyectos</v-list-item>
+      <v-list-item><a href="#experiencia" v-smooth-scroll>experiencia</a></v-list-item>
+      <v-list-item><a href="#educacion" v-smooth-scroll>educación</a></v-list-item>
+      <v-list-item><a href="#skills" v-smooth-scroll>skills</a></v-list-item>
+      <v-list-item><a href="#proyectos" v-smooth-scroll>proyectos</a></v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
