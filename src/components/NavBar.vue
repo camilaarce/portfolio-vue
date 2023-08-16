@@ -6,7 +6,7 @@
         <v-spacer v-show="!isPhone()"></v-spacer>
         <v-spacer v-show="!isPhone()"></v-spacer>
         <v-app-bar-title v-show="!isPhone()"><a href="#experiencia" v-smooth-scroll>experiencia</a></v-app-bar-title>
-        <v-app-bar-title v-show="!isPhone()"><a href="#educacion" v-smooth-scroll>educacion</a></v-app-bar-title>
+        <v-app-bar-title v-show="!isPhone()"><a href="#educacion" v-smooth-scroll>educación</a></v-app-bar-title>
         <v-app-bar-title v-show="!isPhone()"><a href="#skills" v-smooth-scroll>skills</a></v-app-bar-title>
         <v-app-bar-title v-show="!isPhone()"><a href="#proyectos" v-smooth-scroll>proyectos</a></v-app-bar-title>
     </v-app-bar>
