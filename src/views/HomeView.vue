@@ -1,18 +1,18 @@
 <template>
-  <HelloWorld />
+  <NavBar />
 </template>
 
 <script>
 import { defineComponent } from 'vue';
+import NavBar from '@/components/NavBar.vue';
 
 // Components
-import HelloWorld from '../components/HelloWorld.vue';
 
 export default defineComponent({
   name: 'HomeView',
 
   components: {
-    HelloWorld,
+    NavBar
   },
 });
 </script>
