@@ -27,7 +27,7 @@ export default {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("./assets/pexels-luis-gomes-546819.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: start center;
   background-repeat: no-repeat;
 }
 
