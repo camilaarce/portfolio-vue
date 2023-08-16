@@ -1,7 +1,24 @@
 <template>
   <v-app>
     <v-main>
-      <router-view />
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        "
+        v-if="loading"
+      >
+        <v-progress-circular
+          :size="100"
+          :width="7"
+          color="#ff00bf"
+          indeterminate
+          ><v-icon icon="mdi-xml" size="65"></v-icon>
+        </v-progress-circular>
+      </div>
+      <router-view v-else />
     </v-main>
   </v-app>
 </template>
@@ -11,8 +28,14 @@ export default {
   name: "App",
 
   data: () => ({
-    //
+    loading: true,
   }),
+
+  mounted() {
+    setTimeout(() => {
+      this.loading = false;
+    }, 2000);
+  },
 };
 </script>
 
