@@ -1,31 +1,31 @@
 <template>
   <v-app>
     <v-main>
-      <router-view/>
+      <router-view />
     </v-main>
   </v-app>
 </template>
 
 <script>
-
 export default {
-  name: 'App',
+  name: "App",
 
   data: () => ({
     //
   }),
-}
+};
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 
 * {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
 }
 
 .v-main {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./assets/pexels-luis-gomes-546819.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("./assets/pexels-luis-gomes-546819.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -46,9 +46,9 @@ export default {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 60%; 
+  width: 60%;
   height: 3px;
-  background-color: rgb(255, 0, 191); 
+  background-color: #ff00bf;
 }
 
 a {
