@@ -6,7 +6,11 @@
       v-show="isPhone()"
     ></v-app-bar-nav-icon>
     <v-spacer></v-spacer>
-    <v-app-bar-title>CAMILA ARCE</v-app-bar-title>
+    <v-app-bar-title>
+      <a href="#experiencia" style="font-size: x-large">
+        CAMILA ARCE
+      </a></v-app-bar-title
+    >
     <v-spacer v-show="!isPhone()"></v-spacer>
     <v-spacer v-show="!isPhone()"></v-spacer>
     <v-app-bar-title v-show="!isPhone()"
