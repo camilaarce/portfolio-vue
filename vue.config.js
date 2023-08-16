@@ -1,6 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  publicPath: "/porfolio-vue/",
   transpileDependencies: true,
   pluginOptions: {
     vuetify: {
