@@ -1,7 +1,7 @@
 <template>
   <v-footer class="d-flex flex-column mt-10" color="black">
     <div class="d-flex w-100 align-center px-4 justify-center">
-      <a :href="red.link" v-for="red in redes" :key="red.id"
+      <a :href="red.link" target="_blank" v-for="red in redes" :key="red.id"
         ><v-btn
           :icon="red.icon"
           class="mx-2 icons"

@@ -4,7 +4,7 @@
   <section id="experiencia" class="mt-10"><Experiencia /></section>
   <section id="educacion" class="mt-10"><Educacion /></section>
   <section id="skills" class="mt-10"><Skills /></section>
-  <section id="proyectos" class="mt-10"><Experiencia /></section>
+  <section id="proyectos" class="mt-10"><Proyectos /></section>
   <Footer />
 </template>
 
@@ -16,6 +16,7 @@ import Experiencia from "@/components/Experiencia.vue";
 import Educacion from "@/components/Educacion.vue";
 import Skills from "@/components/Skills.vue";
 import Bienvenida from "@/components/Bienvenida.vue";
+import Proyectos from "@/components/Proyectos.vue";
 
 // Components
 
@@ -29,6 +30,7 @@ export default defineComponent({
     Educacion,
     Skills,
     Bienvenida,
-  },
+    Proyectos
+},
 });
 </script>
