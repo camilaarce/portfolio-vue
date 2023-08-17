@@ -40,6 +40,16 @@
   color: #fff;
 }
 
+.custom-card:hover {
+  background-color: rgba(255, 0, 191, 0.3);
+  transition: 1s;
+}
+
+.custom-card:not(:hover) {
+  background-color: rgba(255, 0, 191, 0.1);
+  transition: 1s;
+}
+
 .v-avatar {
   border: 5px solid #ff00bf;
 }

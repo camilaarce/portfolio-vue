@@ -95,6 +95,16 @@ export default {
   color: rgb(255, 198, 241);
 }
 
+.custom-card:hover {
+  background-color: rgba(255, 0, 191, 0.3);
+  transition: 1s;
+}
+
+.custom-card:not(:hover) {
+  background-color: rgba(255, 0, 191, 0.1);
+  transition: 1s;
+}
+
 @media only screen and (max-width: 767px) {
   .container {
     padding: 0 15%;
