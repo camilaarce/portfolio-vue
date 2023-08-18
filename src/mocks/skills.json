@@ -1,0 +1,64 @@
+[
+    
+    {
+        "id": 0,
+        "nombre": "HTML",
+        "porcentaje": 95
+      },
+      {
+        "id": 1,
+        "nombre": "CSS",
+        "porcentaje": 95
+      },
+      {
+        "id": 2,
+        "nombre": "JavaScript",
+        "porcentaje": 90
+      },
+      {
+        "id": 3,
+        "nombre": "PHP",
+        "porcentaje": 70
+      },
+      {
+        "id": 4,
+        "nombre": "Python",
+        "porcentaje": 75
+      },
+      {
+        "id": 5,
+        "nombre": "MySQL",
+        "porcentaje": 90
+      },
+      {
+        "id": 6,
+        "nombre": "Angular",
+        "porcentaje": 70
+      },
+      {
+        "id": 7,
+        "nombre": "Vue JS",
+        "porcentaje": 95
+      },
+      {
+        "id": 8,
+        "nombre": "Laravel",
+        "porcentaje": 75
+      },
+      {
+        "id": 9,
+        "nombre": "FastAPI",
+        "porcentaje": 75
+      },
+      {
+        "id": 10,
+        "nombre": "Figma",
+        "porcentaje": 95
+      },
+      {
+        "id": 11,
+        "nombre": "Inglés",
+        "porcentaje": 65
+      }
+    
+]

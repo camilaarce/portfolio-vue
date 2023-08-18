@@ -17,39 +17,15 @@
 </template>
 
 <script>
+import ExperienciaRepository from '../repositories/ExperienciaRepository'
+
 export default {
     data: () => ({
-        experiencias: [
-            {
-                id: 0,
-                fecha: '2023 - actualidad',
-                titulo: 'Frontend developer',
-                empresa: 'CIID S.E.',
-                descripcion: 'Realizo el maquetado del frontend en Figma y lo codifico con el framework Vue.js y Vuetify'
-            },
-            {
-                id: 1,
-                fecha: '2023',
-                titulo: 'Tutora de pares',
-                empresa: 'Universidad Nacional de Santiago del Estero',
-                descripcion: 'Seguimiento de alumnos de primer año de las carreras Licenciatura en Sistemas de Información y Programador Universitario en Informática.'
-            },
-            {
-                id: 2,
-                fecha: '2021 - 2023',
-                titulo: 'Ayudante de cátedra',
-                empresa: 'Universidad Nacional de Santiago del Estero',
-                descripcion: 'Ayudante estudiantil de la cátedra Simulación, materia del 4° año de la Licenciatura en Sistemas de Información y del 5° de Ingeniería Industrial.'
-            },
-            {
-                id: 3,
-                fecha: '2021 - 2022',
-                titulo: 'Operadora de call center',
-                empresa: 'Express Telecomunicaciones S.A.',
-                descripcion: 'Asistencia telefónica a consultas y problemas relacionados con los servicios de televisión, telefonía e internet.'
-            },
-        ]
-    })
+        experiencias: []
+    }),
+    async mounted() {
+        this.experiencias = await ExperienciaRepository.getExperiencias()
+    }
 }
 </script>
 
@@ -64,17 +40,18 @@ export default {
 }
 
 .custom-card:hover {
-  background-color: rgba(255, 0, 191, 0.3);
-  transition: 1s;
+    background-color: rgba(255, 0, 191, 0.3);
+    transition: 1s;
 }
 
 .custom-card:not(:hover) {
-  background-color: rgba(255, 0, 191, 0.1);
-  transition: 1s;
+    background-color: rgba(255, 0, 191, 0.1);
+    transition: 1s;
 }
+
 @media only screen and (max-width: 767px) {
     .container {
-    padding: 0 15%;
-}
+        padding: 0 15%;
+    }
 }
 </style>

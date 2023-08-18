@@ -4,19 +4,9 @@
     <v-card class="custom-card mt-5">
       <v-card-text>
         <v-row>
-          <v-col
-            cols="12"
-            sm="6"
-            v-for="edu in educacion"
-            :key="edu.id"
-            class="text-center px-10"
-          >
+          <v-col cols="12" sm="6" v-for="edu in educacion" :key="edu.id" class="text-center px-10">
             <v-avatar color="#ff00bf" size="100" class="mb-5">
-              <span
-                class="font-weight-bold text-white"
-                style="font-size: x-large"
-                >{{ edu.fecha }}</span
-              >
+              <span class="font-weight-bold text-white" style="font-size: x-large">{{ edu.fecha }}</span>
             </v-avatar>
             <p class="font-weight-bold mb-2" style="font-size: larger">
               {{ edu.titulo }}
@@ -30,23 +20,14 @@
 </template>
 
 <script>
+import EducacionRepository from '../repositories/EducacionRepository'
 export default {
   data: () => ({
-    educacion: [
-      {
-        id: 0,
-        fecha: "2023",
-        titulo: "Bachiller en Economía y Gestión de las Organizaciones",
-        institucion: "Colegio Madre Mercedes Guerra",
-      },
-      {
-        id: 1,
-        fecha: "En curso",
-        titulo: "Licenciatura en Sistemas de Información",
-        institucion: "Universidad Nacional de Santiago del Estero",
-      },
-    ],
+    educacion: [],
   }),
+  async mounted() {
+    this.educacion = await EducacionRepository.getEducacion()
+  }
 };
 </script>
 
