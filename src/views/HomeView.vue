@@ -5,6 +5,7 @@
   <section id="educacion" class="mt-10"><Educacion /></section>
   <section id="skills" class="mt-10"><Skills /></section>
   <section id="proyectos" class="mt-10"><Proyectos /></section>
+  <Up />
   <Footer />
 </template>
 
@@ -17,6 +18,7 @@ import Educacion from "@/components/Educacion.vue";
 import Skills from "@/components/Skills.vue";
 import Bienvenida from "@/components/Bienvenida.vue";
 import Proyectos from "@/components/Proyectos.vue";
+import Up from "@/components/Up.vue";
 
 // Components
 
@@ -30,7 +32,8 @@ export default defineComponent({
     Educacion,
     Skills,
     Bienvenida,
-    Proyectos
+    Proyectos,
+    Up
 },
 });
 </script>
