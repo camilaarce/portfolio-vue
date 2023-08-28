@@ -7,7 +7,7 @@
       <v-card-text>
         <v-row align="center">
           <v-col cols="12" sm="3">
-            <v-avatar size="200px">
+            <v-avatar>
               <v-img src="../assets/perfil.jpeg" cover></v-img>
             </v-avatar>
           </v-col>
@@ -52,6 +52,8 @@
 
 .v-avatar {
   border: 5px solid #ff00bf;
+  width: 100%;
+  height: 100%;
 }
 
 .titulo {
