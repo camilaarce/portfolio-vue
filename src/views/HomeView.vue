@@ -60,4 +60,8 @@ section {
   animation-range: entry 25% cover 50%;
 	animation-fill-mode: both;
 }
+
+#proyectos {
+  margin-bottom: 25vh;
+}
 </style>
