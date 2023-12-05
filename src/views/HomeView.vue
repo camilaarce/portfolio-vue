@@ -37,3 +37,27 @@ export default defineComponent({
 },
 });
 </script>
+
+<style scoped>
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+section {
+  view-timeline-name: --section;
+  view-timeline-axis: block;
+
+  animation-timeline: --section;
+  animation-name: show;
+
+  animation-range: entry 25% cover 50%;
+	animation-fill-mode: both;
+}
+</style>
