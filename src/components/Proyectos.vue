@@ -2,12 +2,22 @@
     <div class="container">
         <div class="titulo half-underline">Proyectos</div>
         <v-card class="custom-card mt-5">
-            <v-card-text>Para ver proyectos realizados por mí, te invito a visitar mi perfil en GitHub</v-card-text>
             <v-card-text class="text-center ">
-                <a href="https://github.com/camilaarce" target="_blank"><v-btn variant="flat" color="#ff00bf" prepend-icon="mdi-github" append-icon="mdi-arrow-top-right">PERFIL DE GITHUB</v-btn></a>
-                
+                <v-row>
+                    <v-col cols="12" sm="6">
+                        <a href="https://parasaborear-invitaciondigital.netlify.app/" target="_blank">
+                            <v-btn variant="flat" size="large"
+                                color="#ff00bf" append-icon="mdi-arrow-top-right" block>invitación digital</v-btn>
+                                <v-img class="mt-2" src="../assets/invitacion.png" cover></v-img></a>
+                    </v-col>
+                    <v-col cols="12" sm="6">
+                        <a href="https://tablero-tickets.netlify.app/" target="_blank"><v-btn variant="flat" size="large"
+                                color="#ff00bf" append-icon="mdi-arrow-top-right" block>gestión de tickets</v-btn>
+                                <v-img class="mt-2" src="../assets/tickets.png" cover></v-img></a>
+                    </v-col>
+                </v-row>
             </v-card-text>
-            
+
         </v-card>
     </div>
 </template>
@@ -36,5 +46,4 @@
     .container {
         padding: 0 15%;
     }
-}
-</style>
+}</style>
