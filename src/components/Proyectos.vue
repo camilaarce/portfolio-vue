@@ -8,12 +8,12 @@
                         <a href="https://parasaborear-invitaciondigital.netlify.app/" target="_blank">
                             <v-btn variant="flat" size="large"
                                 color="#ff00bf" append-icon="mdi-arrow-top-right" block>invitación digital</v-btn>
-                                <v-img class="mt-2" src="../assets/invitacion.png" cover></v-img></a>
+                                <v-img class="mt-2" src="../assets/837shots_so.png" cover></v-img></a>
                     </v-col>
                     <v-col cols="12" sm="6">
                         <a href="https://tablero-tickets.netlify.app/" target="_blank"><v-btn variant="flat" size="large"
                                 color="#ff00bf" append-icon="mdi-arrow-top-right" block>gestión de tickets</v-btn>
-                                <v-img class="mt-2" src="../assets/tickets.png" cover></v-img></a>
+                                <v-img class="mt-2" src="../assets/941shots_so.png" cover></v-img></a>
                     </v-col>
                 </v-row>
             </v-card-text>
