@@ -65,6 +65,19 @@ export default {
   font-family: "Comfortaa", cursive;
 }
 
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ff00bf;
+  border-radius: 20px;
+}
+
 .v-main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("./assets/pexels-luis-gomes-546819.jpg");
