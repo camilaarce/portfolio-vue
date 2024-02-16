@@ -15,6 +15,17 @@
                                 color="#ff00bf" append-icon="mdi-arrow-top-right" block>gestión de tickets</v-btn>
                                 <v-img class="mt-2" src="../assets/941shots_so.png" cover></v-img></a>
                     </v-col>
+                    <v-col cols="12" sm="6">
+                        <a href="https://ecommerce-fullstack-camilaarce.netlify.app/" target="_blank">
+                            <v-btn variant="flat" size="large"
+                                color="#ff00bf" append-icon="mdi-arrow-top-right" block>ecommerce fullstack js</v-btn>
+                                <v-img class="mt-2" src="../assets/803shots_so.png" cover></v-img></a>
+                    </v-col>
+                    <v-col cols="12" sm="6">
+                        <a href="https://ecommerce-o9xm.onrender.com/courses" target="_blank"><v-btn variant="flat" size="large"
+                                color="#ff00bf" append-icon="mdi-arrow-top-right" block>api ecommerce</v-btn>
+                                <v-img class="mt-2" src="../assets/511shots_so.png" cover></v-img></a>
+                    </v-col>
                 </v-row>
             </v-card-text>
 
